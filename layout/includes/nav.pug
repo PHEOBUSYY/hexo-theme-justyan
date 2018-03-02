@@ -1,0 +1,31 @@
+nav.navbar.is-fixed-top
+    .navbar-brand
+        a(href='https://bulma.io').navbar-item
+           img(src='https://bulma.io/images/bulma-logo.png', width=112, height=28)
+    .navbar-menu
+        .navbar-start
+            each url, label in theme.menu
+                a.navbar-item(href=url)= label
+            .navbar-item.has-dropdown.is-hoverable
+                a.navbar-link(href='#')= 'Docs'
+                .navbar-dropdown.is-boxed
+                    a.navbar-item(href='#')= 'overview'
+                    a.navbar-item(href='#')= 'overview'
+                    a.navbar-item(href='#')= 'overview'
+                    a.navbar-item(href='#')= 'overview'
+                    a.navbar-item(href='#')= 'overview'
+                    hr.navbar-divider
+                    a.navbar-item(href='#')= 'overview'
+        .navbar-end
+            .navbar-item
+                .field.is-grouped
+                    p.control
+                        a.bd-tw-button.button(href='#')
+                            span.icon
+                                i.fab.fa-twitter
+                            span= 'Tweet'
+                    p.control
+                        a.is-primary.button(href='#')
+                            span.icon
+                                i.fas.fa-download
+                            span= 'Download'
