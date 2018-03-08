@@ -2,6 +2,6 @@ extends includes/layout.pug
 
 block content
   article#post
-    h1= page.title
+    .toc!= toc(page.content)
     != page.content
   div!= paginator()

@@ -5,10 +5,18 @@ language: en
 # main menu navigation
 menu:
   Home: /
-  About: /about
-  Contact: /contact
+  Tags: /tags
   Archives: /archives
-
+  Contact: /contact
+tabs:
+  All: /
+  Programming: /tags/programming
+  Reading: /tags/reading
+  Life: /tags/life
+  Note: /tags/note
+  Others: /tags/others
+  PMP: /tags/pmp
+  Github: /tags/github
 # Miscelaneous
 favicon: /favicon.ico
 

@@ -1,13 +1,25 @@
-- var pageTitle = page.title || config.subtitle || ''
+- var pageTitle = page.title || config.title || '欢迎来到我的个人blog'
 - if (is_archive()) pageTitle = 'Archives'
 - if (is_tag()) pageTitle = 'Tag: ' + page.tag
 - if (is_category()) pageTitle = 'Category: ' + page.category
 - if (is_month()) pageTitle += ': ' + page.month + '/' + page.year
 - if (is_year()) pageTitle += ': ' + page.year
-- pageTitle += ' [ ' + config.title + ' ]'
+
+- var title = page.title
+- if (is_home()) title = config.title || '欢迎来到的我的个人blog'
+- if (is_archive()) title = 'Archives'
+- if (is_year()) title += ':' + page.year
+- if (is_tag()) title = 'Tag:' + page.tag
+- if (is_category()) title = 'Category:' + page.category
+- if (is_post()) title = page.title
+
+- var subTitle = ''
+- if (is_home()) subTitle = config.subtitle
+- if (is_post()) subTitle = date(page.date || page.updated)
+
 
 doctype html
-html.has-navbar-fixed-top.wrraper(lang=config.language)
+html.has-navbar-fixed-top(lang=config.language)
     head
         meta(charset='UTF-8')
         title= pageTitle
