@@ -2,6 +2,7 @@
 my hexo theme justyan pug bulma
 ===
 
+![](./source/img/hexo-theme-justyan.png)
 
 ## Requirements ##
 
