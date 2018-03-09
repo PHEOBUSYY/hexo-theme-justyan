@@ -1,5 +1,5 @@
 # hexo-theme-justyan
-my hexo theme justyan pug bulma
+my hexo theme justyan created by  pug bulma
 ===
 
 ![](./source/img/hexo-theme-justyan.png)
