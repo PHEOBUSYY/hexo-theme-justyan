@@ -7,6 +7,7 @@ menu:
   Home: /
   Tags: /tags
   Archives: /archives
+  Categories: /category
   Contact: /contact
 tabs:
   All: /
@@ -17,6 +18,12 @@ tabs:
   Others: /tags/others
   PMP: /tags/pmp
   Github: /tags/github
+contacts:
+  Github: https://github.com/PHEOBUSYY
+  Zhihu: https://www.zhihu.com/people/yan-yi-82
+  Weibo: https://www.weibo.com/u/3822073800
+  Twitter: https://twitter.com/yanyi609
+  Email: mailto:yanyi609@126.com
 # Miscelaneous
 favicon: /favicon.ico
 
