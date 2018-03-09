@@ -58,32 +58,16 @@ contacts:
   Twitter: https://twitter.com/yanyi609
   Email: mailto:yanyi609@126.com
 ```
-header menu
-menu:
-  Home: /
-  Tags: /tags
-  Archives: /archives
-  Categories: /category
-  Contact: /contact
-===  
-nav tabs  
-tabs:
-  All: /
-  Programming: /tags/programming
-  Reading: /tags/reading
-  Life: /tags/life
-  Note: /tags/note
-  Others: /tags/others
-  PMP: /tags/pmp
-  Github: /tags/github
-===
-contact way
-contacts:
-  Github: https://github.com/PHEOBUSYY
-  Zhihu: https://www.zhihu.com/people/yan-yi-82
-  Weibo: https://www.weibo.com/u/3822073800
-  Twitter: https://twitter.com/yanyi609
-  Email: mailto:yanyi609@126.com
+header menu => menu
+
+---
+
+nav tabs => tabs
+
+---
+
+contact info => contacts
+
 
 ## License ##
 
