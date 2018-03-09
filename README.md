@@ -19,18 +19,18 @@ my hexo theme justyan created by  pug bulma
 1) install theme:
 
 ``` sh
-$ git clone https://github.com/PHEOBUSYY/hexo-theme-justyan.git themes/wixo
+$ git clone https://github.com/PHEOBUSYY/hexo-theme-justyan.git themes/justyan
 ```
 
 
 ## Enable ##
 
-Modify `theme` setting in your `_config.yml` to `justyan_pug`.
+Modify `theme` setting in your `_config.yml` to `justyan`.
 
 ## Update ##
 
 ``` sh
-$ cd themes/justyan_pug
+$ cd themes/justyan
 $ git pull
 ```
 
