@@ -16,8 +16,6 @@ tabs:
   Life: /tags/life
   Note: /tags/note
   Others: /tags/others
-  PMP: /tags/pmp
-  Github: /tags/github
 contacts:
   Github: https://github.com/PHEOBUSYY
   Zhihu: https://www.zhihu.com/people/yan-yi-82
@@ -31,10 +29,12 @@ favicon: /favicon.ico
 stylesheets:
 - /css/bulma.css
 - /css/justyan.css
+- /highlight/styles/dracula.css
 
 # scripts loaded in the end of the body
 scripts:
 - /js/justyan.js
+- /highlight/highlight.pack.js
 
 node_sass:
   outputStyle: nested
